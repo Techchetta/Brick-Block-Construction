@@ -5,7 +5,8 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en-gb" class="no-js">
 <!--<![endif]-->
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 :root {
     --primary: #A10000;
@@ -15,7 +16,7 @@
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: var(--bg);
 }
 
@@ -154,6 +155,90 @@ tr:nth-child(even) {
         padding: 10px;
     }
 }
+
+.process-section {
+  padding: 60px 0;
+  background: #f7f7f7;
+}
+
+.process-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+  margin-bottom: 15px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* limits to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.process-card p {
+  line-height: 1.5;              /* control line spacing */
+  height: calc(1.5em * 3);      /* always reserve space for 3 lines */
+  
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #000000;
+  overflow: hidden;
+}
+
+.process-card:hover {
+  transform: translateY(-5px);
+}
+
+.process-card h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+
+.process-card.highlight {
+  background: #f1f3f6;
+}
+
+.process-card .btn {
+  background: #ff6b2c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.process-icon {
+  font-size: 18px;
+  color: #7a0000;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.process-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+
+
+.process-card:hover {
+  transform: translateY(-5px);
+}
+
+.process-card.highlight {
+  background: #f4f6f9;
+}
+
+.process-card .btn {
+  margin-top: 10px;
+  background: #ff6b2c;
+  border: none;
+}
+
 </style>
 
 <head>
@@ -226,7 +311,7 @@ tr:nth-child(even) {
     </div>
   </div>
   <div class="container hero-text2">
-  <h3><b>Building Trust. Delivering Strength.</b><br/><br/><b>Brick & Block</b> Building Construction is a reliable name in delivering high-quality brick and block construction services. With a focus on durability, precision, and modern techniques, we bring your construction ideas to life. Whether it’s a home, commercial building, or compound structure.</h3>
+  <h3><b>Building Trust. Delivering Strength.</b><br/><br/><b>Brick & Block</b> Building Construction is a reliable name in delivering high-quality construction services. With a focus on durability, precision, and modern techniques, we bring your construction ideas to life. Whether it’s a home, commercial building, or compound structure.</h3>
   </div>
 </section>
 <section id="services" class="page-section colord">
@@ -262,98 +347,74 @@ tr:nth-child(even) {
     </div>
   </div>
   <!--/.container--> 
-</section>
-<section id="aboutUs">
+<section id="construction-process" class="process-section">
   <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>About Us</h2>
-      <p>Civil Engineer Karthik P is a Chennai-based professional dedicated to delivering reliable, innovative, and cost-effective engineering solutions.</p>
+
+    <div class="text-center mb-5">
+      <h2><b>Construction Process</b></h2>
+      <h3>Plan. Build. Track. Move In.</h3>
     </div>
-    <div class="row feature design">
-      <div class="area1 columns right">
-        <h3><b>Reinforced Cement Concrete Building</b></h3>
-    
-        <p>Modern multi-storey residential building designed using an RCC (Reinforced Cement Concrete) framed structure, where columns, beams, and slabs carry the structural loads while the walls act as non-load-bearing infill. The elevation features multiple cantilevered balconies and slab projections, which require careful structural design to handle bending moments and ensure stability. Large glass windows and open balconies enhance natural lighting and ventilation, while the vertical element on one side likely accommodates a staircase or service shaft. The exterior combines plastered surfaces with cladding materials and glass railings, indicating a focus on both durability and aesthetics. Proper considerations for drainage, waterproofing, and load distribution are essential in such a design, making it a balanced example of functional planning and modern architectural elevation in civil engineering. </p>
-          <a href="#" class="btn">3D Plan</a>
-          <a href="#" class="btn">2D Plan</a>
-      </div>
-      <div class="area2 columns feature-media left"> <img src="images/sample_house.png" alt="" width="100%"> </div>
-    </div>
-    <div class="row dataTxt">	
-						<div class="col-md-4 col-sm-6">
-							<h4>🏗️ Structural System</h4>
-                  <ul>
-							<li>The building appears to use a Reinforced Cement Concrete (RCC) framed structure</li>
-              <li>Columns, beams, and slabs carry the loads</li>
-              <li>Walls are likely non-load-bearing infill walls</li>
-              <li>Multiple cantilever projections (balconies and slabs) are visible, requiring careful structural design for bending moments and deflection control </li>
-                     </ul>       
-							<br>
-						</div>
-						
-						<div class="col-md-4 col-sm-6">
-							
-							<h4>📐 Architectural Elevation Features</h4>
-						<ul>
-  <li>Modern façade design with clean horizontal and vertical lines</li>
-  <li>Use of box projections and recessed sections improves aesthetics and shading</li>
-  <li>Vertical element on the right side acts as a visual spine, likely hiding a staircase or service shaft</li>
-</ul>
-							<!-- Accordion starts -->
-							</div>
-						
-						<div class="col-md-4 col-sm-6">
-							<h4>💼 Work Order</h4>
-							<p>Completed works till date</p>
-							<h6>Plan</h6>
-							<div class="progress pb-sm"> 
-							  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-								 <span class="sr-only">40% Complete (success)</span>
-							  </div>
-							</div>
-							<h6>Design</h6>
-							<div class="progress pb-sm">
-							  <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-								 <span class="sr-only">40% Complete (success)</span>
-							  </div>
-							</div>
-							<h6>Constructed</h6>
-							<div class="progress pb-sm">
-							  <div class="progress-bar progress-bar-lblue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-								 <span class="sr-only">90% Complete (success)</span>
-							  </div>
-							</div>
-						</div>
-						
-					</div>
-  </div>
-</section>
-<section id="clients">
-  <div id="demo" class="clients">
-    <div class="container">
-      <div class="heading text-center">
-        <h2>Our Clients</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="customNavigation"> <a class="prev"><i class="fa fa-chevron-circle-left"></i></a> <a class="next"><i class="fa fa-chevron-circle-right"></i></a> </div>
-          <div id="owl-demo" class="owl-carousel">
-            <div class="item"> <span class="helper"> <img src="images/clients/client-1.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-2.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-3.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-4.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-5.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-6.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-7.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-8.png" alt="client" /></span> </div>
-            <div class="item"> <span class="helper"> <img src="images/clients/client-9.png" alt="client" /></span> </div>
-          </div>
+
+    <div class="row">
+
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="process-card">
+          <i class="fas fa-comments process-icon"></i>
+          <h4>Connect with Us</h4>
+          <p>Tell us about your plot and goals our technical team will connect with you for a free, no-obligation consultation.</p>
         </div>
       </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="process-card">
+          <i class="fas fa-clipboard-list process-icon"></i>
+          <h4>Define Your Requirements</h4>
+          <p>We assess your plot, budget, and timeline to create a customized plan.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="process-card">
+          <i class="fas fa-drafting-compass process-icon"></i>
+          <h4>Approve Designs</h4>
+          <p>Review floor plans, drawings, and 3D views while collaborating closely with our architects to refine in deatail perfection.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="process-card">
+          <i class="fas fa-chart-line process-icon"></i>
+          <h4>Live Progress</h4>
+          <p>Track construction in real time with daily photos, quality reports, and payment updates.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="process-card">
+          <i class="fas fa-key process-icon"></i>
+          <h4>Move In</h4>
+          <p>Take possession and step into your new home with confidence, backed by a 10-year warranty.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 (CTA instead of duplicate) -->
+      <div class="col-md-4 mb-4">
+        <div class="process-card text-center highlight">
+          <i class="fas fa-user-tie process-icon"></i>
+          <h4>Talk to our Construction Advisor</h4>
+          <a href="#" class="btn btn-primary">Talk to an Expert</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
+
 <section id="work" class="page-section page">
   <div class="container text-center">
     <div class="heading">
@@ -399,6 +460,7 @@ tr:nth-child(even) {
       </div>
     </div>
   </div>
+  </section>
 </section>
 <section id="plans" class="page-section">
   <div class="container">
@@ -408,149 +470,76 @@ tr:nth-child(even) {
       <p>All prices GST Exclusive · No hidden costs</p>
     </div>
     
-
+</div>
 <div class="table-wrapper">
 <table id="table">
 
 <tr>
     <th>Specification</th>
     <th>
-        <div class="package-title">Basic</div>
-        <div class="price">₹1,899</div>
-    </th>
-    <th>
         <div class="package-title">Standard</div>
-        <div class="price">₹2,199</div>
+        <div class="price">₹2,199 / sqft</div>
+        <div>Save ₹200</div>
     </th>
     <th>
         <div class="package-title">Premium</div>
-        <div class="price">₹2,549</div>
+        <div class="price">₹2,549 / sqft</div>
+        <div>Save ₹140</div>
     </th>
     <th>
         <div class="package-title">Luxury</div>
-        <div class="price">₹2,899</div>
+        <div class="price">₹2,899 / sqft</div>
+        <div>Save ₹200</div>
     </th>
 </tr>
 
-<tr class="section"><td colspan="5">🛖 Structure</td></tr>
-<tr><td>Steel</td><td>Fe550D</td><td>ISI</td><td>ARS</td><td>Tata</td></tr>
-<tr><td>Ceiling Height</td><td>9.5 ft</td><td>9.5 ft</td><td>10 ft</td><td>10 ft</td></tr>
-<tr><td>Steel</td><td>Fe550D</td><td>ISI</td><td>ARS</td><td>Tata</td></tr>
-<tr><td>Ceiling Height</td><td>9.5 ft</td><td>9.5 ft</td><td>10 ft</td><td>10 ft</td></tr>
-<tr><td>Steel</td><td>Fe550D</td><td>ISI</td><td>ARS</td><td>Tata</td></tr>
-<tr><td>Ceiling Height</td><td>9.5 ft</td><td>9.5 ft</td><td>10 ft</td><td>10 ft</td></tr>
-<tr><td>Steel</td><td>Fe550D</td><td>ISI</td><td>ARS</td><td>Tata</td></tr>
-<tr><td>Ceiling Height</td><td>9.5 ft</td><td>9.5 ft</td><td>10 ft</td><td>10 ft</td></tr>
+<!-- STRUCTURE -->
+<tr class="section"><td colspan="4">🛖 Structure</td></tr>
+<tr><td>Steel</td><td>Any ISI brand</td><td>ARS / Isteel</td><td>Tata Tiscon / JSW</td></tr>
+<tr><td>Cement</td><td>Zuari / Chettinad</td><td>Ramco / Dalmia</td><td>UltraTech / Ramco / Coromandel</td></tr>
+<tr><td>Aggregates</td><td colspan="3">20mm & 40mm</td></tr>
+<tr><td>Brick Work</td><td colspan="3">9" outer · 4" inner</td></tr>
+<tr><td>Basement Height</td><td>Upto 2 ft</td><td>Upto 3 ft</td><td>Upto 4.5 ft</td></tr>
+<tr><td>Ceiling Height</td><td>9.5 ft</td><td>10 ft</td><td>10 ft</td></tr>
+<tr><td>Waterproofing</td><td>Dr. Fixit / Fosroc</td><td>Dr. Fixit / Fosroc</td><td>Dr. Fixit / Fosroc</td></tr>
+<tr><td>RCC Design Mix</td><td>M20</td><td>M20</td><td>M25</td></tr>
 
+<!-- KITCHEN -->
+<tr class="section"><td colspan="4">🍽️ Kitchen</td></tr>
+<tr><td>Wall Tiles</td><td>₹50/sqft</td><td>₹65/sqft</td><td>₹80/sqft</td></tr>
+<tr><td>Granite</td><td>₹125/sqft</td><td>₹165/sqft</td><td>₹200/sqft</td></tr>
+<tr><td>Kitchen Sink</td><td>SS (₹3,500)</td><td>SS (₹5,500)</td><td>SS + Drain Board (₹9,500)</td></tr>
 
-<tr class="section"><td colspan="5">🍽️ Kitchen</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
+<!-- BATHROOM -->
+<tr class="section"><td colspan="4">🚽 Bathroom</td></tr>
+<tr><td>Fittings</td><td>₹18,000</td><td>₹30,000</td><td>₹45,000</td></tr>
+<tr><td>Wall Tiles Height</td><td>7 ft</td><td>10 ft</td><td>10 ft</td></tr>
+<tr><td>CPVC Pipes</td><td>Ashirwad</td><td>Ashirwad</td><td>Finolex</td></tr>
 
-<tr class="section"><td colspan="5">🚽 Bathroom</td></tr>
-<tr><td>Fittings</td><td>₹8k</td><td>₹18k</td><td>₹30k</td><td>₹45k</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
+<!-- FLOORING -->
+<tr class="section"><td colspan="4">🧱 Flooring</td></tr>
+<tr><td>Living & Dining</td><td>₹50/sqft</td><td>₹90/sqft</td><td>₹150/sqft</td></tr>
+<tr><td>Staircase</td><td>₹50/sqft</td><td>₹130/sqft</td><td>₹170/sqft</td></tr>
+<tr><td>Parking</td><td>₹50/sqft</td><td>₹60/sqft</td><td>₹70/sqft</td></tr>
 
-<tr class="section"><td colspan="5">⚡Electrical</td></tr>
-<tr><td>Wires</td><td>ISI</td><td>Orbit</td><td>Finolex</td><td>FRLSH</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
-<tr><td>Wall Tiles</td><td>₹35</td><td>₹50</td><td>₹65</td><td>₹80</td></tr>
-<tr><td>Granite</td><td>₹90</td><td>₹125</td><td>₹165</td><td>₹200</td></tr>
+<!-- DOORS -->
+<tr class="section"><td colspan="4">🚪 Doors & Windows</td></tr>
+<tr><td>Main Door</td><td>Malaysian Teak</td><td>First Quality Teak</td><td>First Quality Teak</td></tr>
+<tr><td>Windows</td><td>Aluminium</td><td>UPVC 2-track</td><td>UPVC 3-track + mesh</td></tr>
 
+<!-- PAINTING -->
+<tr class="section"><td colspan="4">🎨 Painting</td></tr>
+<tr><td>Interior Paint</td><td>Asian Tractor</td><td>Asian Premium</td><td>Asian Royal Matt</td></tr>
+<tr><td>Exterior Paint</td><td>Ace Emulsion</td><td>Apex Emulsion</td><td>Ultima Protek</td></tr>
+
+<!-- ELECTRICAL -->
+<tr class="section"><td colspan="4">⚡ Electrical</td></tr>
+<tr><td>Wires</td><td>Orbit</td><td>Finolex FR</td><td>Finolex FRLSH</td></tr>
+<tr><td>Switches</td><td>Anchor Roma</td><td>Legrand</td><td>GM</td></tr>
 
 </table>
 </div>
-
-</section>
-<section id="team" class="page-section">
-  <div class="container">
-    <div class="heading text-center"> 
-  <!-- Heading -->
-      <h2>Our Team</h2>
-      <p>Startup company with limited staffs and Engineers</p>
-    </div>
-    <!-- Team Member's Details -->
-    <div class="team-content">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-1.png" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Karthik</h4>
-            <!-- Designation --> 
-            <span class="pos">CEO</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-2.png" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Karthik</h4>
-            <!-- Designation --> 
-            <span class="pos">Head Construction (Civil)</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-3.png" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Karthik</h4>
-            <!-- Designation --> 
-            <span class="pos">Structural Engineer</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6"> 
-          <!-- Team Member -->
-          <div class="team-member pDark"> 
-            <!-- Image Hover Block -->
-            <div class="member-img"> 
-              <!-- Image  --> 
-              <img class="img-responsive" src="images/photo-4.png" alt=""> </div>
-            <!-- Member Details -->
-            <h4>Karthik</h4>
-            <!-- Designation --> 
-            <span class="pos">Site Engineer</span>
-            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    <!--/.container--> 
-     <!--/.container--> 
+<!--/.container--> 
 </section>
 <section id="contactUs" class="contact-parlex">
   <div class="parlex-back">
@@ -585,6 +574,7 @@ tr:nth-child(even) {
     </div>
     <!--/.container--> 
   </div>
+  </section>
 </section>
 <footer>
 <div class="container">
@@ -593,9 +583,8 @@ tr:nth-child(even) {
             	<div class="col">
                    <h4>Contact us</h4>
                    <ul>
-                        <li>1/151H, Bethel Nagar, injambakkam,Chennai 600115</li>
-                        <li>Phone: +91 9952938369 | Whatsapp: +91 9952938369 </li>
-                        <li>Email: <a href="bricknblockconstruction@gmail.com" title="Email Us">bricknblockconstruction@gmail.com</a></li>
+                        <li>Whatsapp: +91 9952938369 </li>
+                        <li>Email: <a href="mailto:bricknblockconstruction@gmail.com" title="Email Us">bricknblockconstruction@gmail.com</a></li>
                         <li>Whatsapp: <a href="https://api.whatsapp.com/send?phone=9952938369" title="Whatsapp">Whatspp now</a></li>
                     </ul>
                  </div>
@@ -619,7 +608,7 @@ tr:nth-child(even) {
 
          
     </div>
-    
+    </div>
 </footer>
 <!--/.page-section-->
 <section class="copyright">
